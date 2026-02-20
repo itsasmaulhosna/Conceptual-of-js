@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conceptual Project</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <header class="w-[80%] mx-auto space-y-5">
+      <h2 class="text-4xl font-bold text-green-500">Plant Tracker</h2>
+      <div class="grid grid-cols-3 gap-4">
+        <div class="bg-amber-200">
+          <p>Total</p>
+          <p id="total">0</p>
+        </div>
+        <div class="bg-green-200">
+          <p>Total</p>
+          <p id="thriving">0</p>
+        </div>
+        <div class="bg-red-200">
+          <p>Total</p>
+          <p id="struggling">0</p>
+        </div>
+      </div>
+    </header>
+    <hr class="my-5" />
+    <main class="w-[80%] mx-auto space-y-5">
+      <div>
+        <button class="bg-black text-white px-5 py-3" id="all-filter-btn">
+          All
+        </button>
+        <button class="bg-gray-300 px-5 py-3" id="thriving-filter-btn">
+          Thriving
+        </button>
+        <button class="bg-gray-300 px-5 py-3" id="struggling-filter-btn">
+          Struggling
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
